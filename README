@@ -5,7 +5,7 @@ Dependencies: Mako >= 0.4.1.
 Using:
 
 unix:
-$python mako_renderer.py [FILE] [-b BASE_TEMPLATE] [-o OUTPUT_FILE]
+$python mako_renderer.py [FILE] [-o OUTPUT_FILE]
 
 win:
 >mako_renderer.py [FILE] [-o OUTPUT_FILE]
