@@ -1,0 +1,14 @@
+Easy Mako template renderer for debug mako templates.
+
+Dependencies: Mako >= 0.4.1.
+
+Using:
+
+unix:
+$python mako_renderer.py [FILE] [-b BASE_TEMPLATE] [-o OUTPUT_FILE]
+
+win:
+>mako_renderer.py [FILE] [-o OUTPUT_FILE]
+
+FILE - path to template to render, if not default index.html is used
+OUTPUT_FILE - path to output file, if not, default ./index_rendered.html is used

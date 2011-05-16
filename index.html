@@ -1,0 +1,15 @@
+<%inherit file="base.html"/>
+
+<%block name="extrahead"%>
+    ## Game specific links to css and js
+    <link href="${MEDIA_URL}/css/style.css" media="screen" rel="stylesheet" type="text/css" />
+    
+    <script type='text/javascript' src='${MEDIA_URL}/js/game_specific.js'></script>
+</%block%>
+
+<%block name="gamescene"%>
+    ## Game scene content
+    <div id="gamescene_or_so_on">
+        Game scene content
+    </div>    
+</%block%>
